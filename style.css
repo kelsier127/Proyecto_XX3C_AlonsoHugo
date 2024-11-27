@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+.navegacion{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    height: 80px;
+    background-color: #38455c;
+}
+
+.logoNav{
+    width: 80px;
+    height: 80px;
+}
+
+.perfil{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:80px;
+    background-color: #4A90E2;
+}
+
+.fotoPerfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.textPerfil{
+    padding: 5px;
+}
