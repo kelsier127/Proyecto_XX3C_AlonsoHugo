@@ -10,6 +10,7 @@
     padding: 0 50px;
     height: 80px;
     background-color: #38455c;
+    
 }
 
 .logoNav{
@@ -17,13 +18,18 @@
     height: 80px;
 }
 
-.perfil{
+.perfilImagen{
     border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius:80px;
     background-color: #4A90E2;
+    margin-left:15px;
+
+}
+.perfil{
+    display: flex;
 }
 
 .fotoPerfil{
@@ -33,4 +39,35 @@
 }
 .textPerfil{
     padding: 5px;
+}
+
+.searchContainer{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.searchButton{
+    width: 15%;
+    height: 100%;
+    border-radius: 40%;
+    @media screen and (max-width:768px) {
+        display: none;
+    }
+}
+
+.showButton{
+    @media screen and (min-width:768px) {
+        display: none;
+    }
+}
+
+#buscador{
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+    @media screen and (max-width:768px) {
+        display: none;
+    }
 }
